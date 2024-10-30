@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playwrite GB S', cursive;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #111;
+  overflow-x: hidden;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://images.pexels.com/photos/2382664/pexels-photo-2382664.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-position: center;
+  background-size: cover;
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 50px;
+  color: white;
+
+  h2 {
+    font-size: 30px;
+  }
+
+  i {
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+  }
+}
+
+#full {
+  height: 100%;
+  width: 40%;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.351);
+  top: 0;
+  right: -40%;
+  padding: 150px 60px;
+
+  /* filter: blur(30px) */
+  backdrop-filter: blur(20px);
+
+  h4 {
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+
+  i {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-color: white;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 30px;
+    cursor: pointer;
+  }
+}
